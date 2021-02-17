@@ -10,7 +10,6 @@ export default function Image({ src, alt }) {
 					node {
 						fluid(maxWidth: 500) {
 							...GatsbyImageSharpFluid_withWebp_tracedSVG
-              ...GatsbyImageSharpFluidLimitPresentationSize
 							originalName
 						}
 					}
@@ -24,12 +23,5 @@ export default function Image({ src, alt }) {
 	if (!image) {
 		return null;
 	}
-	return (
-		<Img
-			style={{ aspectRatio:"square" }}
-			imgStyle={{ objectFit: "contain" }}
-			fluid={image.node.fluid}
-			alt={alt}
-		/>
-	);
+	return <Img fluid={image.node.fluid} alt={alt} />;
 }

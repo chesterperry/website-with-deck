@@ -3,7 +3,6 @@ import { jsx } from "theme-ui";
 import React, { Fragment, useState, useEffect } from "react";
 import useDeck from "../hooks/use-deck";
 import { modes } from "../constants";
-import OverlayWindow from "./overlay";
 import "@fontsource/ibm-plex-serif"
 import "@fontsource/ibm-plex-sans"
 
@@ -47,8 +46,6 @@ export default (props) => {
 						},
 					}}
 				/>      
-
-				<OverlayWindow/>
 
 			</Provider>
 
