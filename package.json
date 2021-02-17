@@ -1,0 +1,62 @@
+{
+  "name": "gatsby-theme-mdx-deck",
+  "version": "4.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "devDependencies": {
+    "gatsby": "^2.32.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@fontsource/ibm-plex-sans": "^4.2.1",
+    "@fontsource/ibm-plex-serif": "^4.2.1",
+    "@mdx-deck/themes": "^4.1.0",
+    "@mdx-js/mdx": "^1.0.21",
+    "@mdx-js/react": "^1.0.21",
+    "@reach/router": "^1.2.1",
+    "debug": "^4.1.1",
+    "gatsby-image": "^2.11.0",
+    "gatsby-plugin-catch-links": "^2.1.0",
+    "gatsby-plugin-compile-es6-packages": "^2.0.0",
+    "gatsby-plugin-emotion": "^4.1.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^0.7.1",
+    "gatsby-plugin-mdx": "^1.0.13",
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-sharp": "^2.14.1",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-remark-emojis": "^0.4.3",
+    "gatsby-remark-images": "^3.11.0",
+    "gatsby-remark-import-code": "^0.1.1",
+    "gatsby-source-filesystem": "^2.11.0",
+    "gatsby-starter-default": "^1.0.0",
+    "gatsby-transformer-remark": "^2.16.0",
+    "gatsby-transformer-sharp": "^2.12.0",
+    "hhmmss": "^1.0.0",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.1",
+    "mkdirp": "^1.0.3",
+    "react-helmet": "^6.0.0-beta",
+    "react-hook-screen-orientation": "^1.0.1",
+    "react-overlay-component": "^1.0.2",
+    "react-swipeable": "^5.3.0",
+    "react-window-size": "^1.2.2",
+    "remark-emoji": "^2.0.2",
+    "remark-unwrap-images": "^2.0.0",
+    "theme-ui": "^0.3.1",
+    "use-mobile-detect-hook": "^1.0.3"
+  },
+  "gitHead": "13d00b47780424cc3b52d38ad6f19e99d007c06a"
+}
