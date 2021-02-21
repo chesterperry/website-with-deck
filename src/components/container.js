@@ -21,6 +21,7 @@ const Container = (props) => (
         display: 'flex',
         flexDirection: 'column',
         minHeight: '100vh',
+        minHeight: '-webkit-fill-available',
       }}>
       <header
         sx={{
