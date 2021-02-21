@@ -21,6 +21,9 @@ export default {
     heading: 700,
     bold: 700,
   },
+  sizes: {
+    container: 768,
+  },
   text: {
     heading: {
       fontFamily: 'heading',

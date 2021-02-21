@@ -7,7 +7,55 @@ import { Flex } from "theme-ui";
 import { Text } from "theme-ui";
 import { Heading } from "theme-ui";
 import Image from "../src/components/img";
+import MyLayout from "../src/components/container";
 import shopifyGIF from "../src/images/shopify-add-products.gif";
+
+
+<MyLayout header="Классный заголовок" subheader="подзаголовок" footer="Подвал"> 
+
+sexy
+
+</MyLayout>
+
+---
+
+
+
+<MyLayout header="Классный заголовок" subheader="подзаголовок" footer="Подвал"> 
+<Appear>
+		<Heading as="h3" p={3}>
+			Анализ
+		</Heading>
+		<Heading as="h3" p={3}>
+			Разработка
+		</Heading>
+		<Heading as="h3" p={3}>
+			Запуск
+		</Heading>
+		<Heading as="h3" p={3}>
+			Продвижение
+		</Heading>
+		<Heading as="h3" p={3}>
+			Корректировка
+		</Heading>
+</Appear>
+</MyLayout>
+
+---
+
+
+<MyLayout header="Классный заголовок" subheader="подзаголовок" footer="Подвал"> 
+	<Text><p>Мы выделяем несколько ключевых этапов и для нас важно не только запустить
+			магазин, а сделать его прибыльным.</p>
+		<p>	Каждый этап подразумевает наше участие в проекте и привлечение
+			компетентных специалистов</p>
+	</Text>
+</MyLayout>
+
+---
+
+
+
 
 <Flex sx={{ 'flex-flow': 'row wrap',   flex: '1 0 500px', 'max-width': '1000px', 'align-items':'center'}}>
 <Box p={15} sx={{ 'flex-basis': '1000px', margin: 'auto' ,  'text-align': 'center'  }}>
@@ -21,7 +69,7 @@ import shopifyGIF from "../src/images/shopify-add-products.gif";
 </Heading>
 </Box>
 
-<Box p={2} sx={{ 'flex-basis': '500px', margin: "auto",'height':'40vh', 'max-height':'40vh' ,'vertical-align': 'middle' }}>
+<Box p={2} sx={{ 'flex-basis': '500px', margin: "auto",'height':'30vh', 'max-height':'30vh' ,'vertical-align': 'middle' }}>
 	<Text><p>Мы выделяем несколько ключевых этапов и для нас важно не только запустить
 			магазин, а сделать его прибыльным.</p>
 		<p>	Каждый этап подразумевает наше участие в проекте и привлечение
@@ -30,7 +78,7 @@ import shopifyGIF from "../src/images/shopify-add-products.gif";
 </Box>
 
 
-<Box p={2} sx={{ 'flex-basis': '500px', margin: "auto",'height':'40vh', 'max-height':'40vh' ,'vertical-align': 'middle' }}>
+<Box p={2} sx={{ 'flex-basis': '500px', margin: "auto",'height':'30vh', 'max-height':'30vh' ,'vertical-align': 'middle' }}>
 
 <Image src="../src/images/stages grow.jpg" alt=""/>
 
@@ -53,7 +101,7 @@ import shopifyGIF from "../src/images/shopify-add-products.gif";
 </Heading>
 </Box>
 
-<Box p={2} sx={{ 'flex-basis': '500px', margin: "auto",'height':'40vh', 'max-height':'40vh' ,'vertical-align': 'middle' }}>
+<Box p={2} sx={{ 'flex-basis': '500px', margin: "auto",'height':'30vh', 'max-height':'30vh' ,'vertical-align': 'middle' }}>
 	<Text><p>Мы выделяем несколько ключевых этапов и для нас важно не только запустить
 			магазин, а сделать его прибыльным.</p>
 		<p>	Каждый этап подразумевает наше участие в проекте и привлечение
@@ -61,7 +109,7 @@ import shopifyGIF from "../src/images/shopify-add-products.gif";
 	</Text>
 </Box>
 
-<Box p={2} sx={{ 'flex-basis': '500px', margin: "auto",'height':'40vh', 'max-height':'40vh' , 'vertical-align': 'middle' }}>
+<Box p={2} sx={{ 'flex-basis': '500px', margin: "auto",'height':'30vh', 'max-height':'30vh' ,'vertical-align': 'middle' }}>
 	<Appear>
 		<Heading as="h3" p={3}>
 			Анализ
